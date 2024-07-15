@@ -1,3 +1,6 @@
+import Jar from './Jar.jsx'
+
 export default function App() {
-  return <div>Hello</div>
+  
+  return <Jar></Jar>
 }
