@@ -1,0 +1,29 @@
+#Jar {
+    position: relative;
+    height: 275px;
+    width: 200px
+}
+
+#JarImage {
+    width: 100%;
+    height: auto;
+}
+
+#Grid {
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    align-content: flex-start;
+    bottom: 22px;
+    left: 22px;
+    width: 155px;
+    height: 138px
+}
+
+.blocks {
+    background-color: aquamarine;
+    width: 10%;
+    height: 10%;
+}
+

@@ -1,8 +1,15 @@
 import image1 from './assets/Vector.png'
+import './Jar.css'
 
 export default function Jar() {
-    return <div style={{position: 'relative', height: '275px', width: '200px'}}>
-    <img src={image1} style={{ width: '100%', height: 'auto' }}></img>    
-    <div style={{position: 'absolute', bottom: '22px', left: '22px', width: '155px', height: '138px'}}>df</div>
+    const numberOfBlocks = 1;
+    const blocks = Array.from({length: numberOfBlocks}, (_, index) => (
+        <div key={index} className='blocks'></div>
+    ))
+
+    return <div id='Jar'>
+    <img id='JarImage' src={image1}></img>    
+    <div id="Grid"> {blocks} </div>
     </div>
+
 }

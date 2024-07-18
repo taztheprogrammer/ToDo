@@ -1,0 +1,10 @@
+#ItemBoard {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.Item {
+    border: 1px solid black;
+}
