@@ -7,7 +7,7 @@ import './App.css'
 export default function App() {
   
   return <>
-  <Popup></Popup>
+  {/* <Popup></Popup> */}
   <ItemBoard></ItemBoard>
   </>
 }
